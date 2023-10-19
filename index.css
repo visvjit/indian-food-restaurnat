@@ -1,0 +1,323 @@
+body{
+    width:100%;
+    margin:0;
+    background:#ffffe6;
+    font-family: 'Roboto Slab', serif;
+}
+.navigation__bar{
+   display:flex;
+   flex-direction:row;   
+   margin:16px;
+   background-color:black;
+   border-radius:20px 0 20px 0;
+   overflow:scroll;
+}
+.website__heading{
+    clear:left;
+}
+
+#logo__img {
+ width:2.5em;
+ float:left;
+ height:2.5em;
+ border-radius:50px;
+ margin:0.5em; 
+}
+.impressive__line{
+ text-align:center;
+font-family: 'Roboto Slab', serif;
+}
+.logo__img__decoration{
+    border:1px solid black;
+    font-size:1.5em;
+    background:black;
+  color:white;
+margin:0;
+}
+nav ul li{
+ list-style:none;
+ padding:1em;   
+}
+
+.navigation__bar__link{
+    flex-wrap:wrap;
+    text-decoration:none;
+    list-style:none;
+   
+}
+
+.navigation__bar__link a {
+    text-decoration:none;
+    list-style:none;
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    word-spacing:auto;
+    font-size:small;
+        margin-left:4em;    
+    margin:auto;
+}
+
+/* Login Button Style */
+.login-button {
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */ 
+    padding:10px 20px;/* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    margin-left:3.5em;
+}
+
+/* Hover Effect */
+.login-button:hover {
+    background-color: #0056b3; /* Background color on hover */
+    /* You can adjust the color as per your design preferences */
+}
+
+/* Style for the website heading */
+.website__heading {
+    text-align: center; /* Center-align the text */
+    background-image: url('/storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/My frist Website project here /images/Daal baati churma2.jpeg'); /* Set the background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    
+    background-position: center center ; /* Center the background image horizontally and vertically */
+    color: #fff; /* Text color */
+    padding: 80px 0; /* Add padding to create space around the text */
+    font-size: 3em; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1); /* Add a subtle text shadow */
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 3px 3px 3px 4px black;
+}
+
+/* Style for the Indian Food Menu section */
+#indian__food__menu {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    text-align: center; /* Center-align the content */
+    padding: 40px 0; /* Add padding for spacing */
+    background:black;
+    color:white;
+}
+
+/* Style for menu item containers */
+.menu-item {
+    background-color: #ffffe6; /* Background color for menu items */
+    margin: 20px; /* Margin around menu items */
+    padding: 20px; /* Padding within menu items */
+    border-radius: 10px; /* Rounded corners */
+    color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for menu item headings */
+.menu-item h3 {
+    color:white ; /* Text color for headings */
+    border-radius:10px;
+    padding:0.5em;
+    background:black;
+}
+
+/* Style for menu item descriptions */
+.menu-item p {
+    
+    color: #333; /* Text color for descriptions */
+}
+
+/* Style for menu item prices */
+.menu-item .price {
+    color: #f00; /* Text color for prices (red in this example) */
+    font-weight: bold; /* Make the price text bold */
+    display: block; /* Display prices on a new line */
+    margin-top: 10px; /* Margin above prices */
+}
+
+#indian__food__menu .menu-item img {
+    widht:250px;
+    height:250px;
+    border-radius:1em;
+    border:2px solid black;
+    padding:5px;
+    background:white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+}
+
+/* Style for the Food Gallery section */
+#images {
+    text-align: center; /* Center-align the content */
+    padding: 40px 0; /* Add padding for spacing */
+    background-color:#ffffe6; /* Background color for the section */
+}
+
+/* Style for the gallery heading */
+#images h2 {
+    color: white; /* Text color for the heading */
+    margin: 20px; /* Margin below the heading */
+    background:black;
+    border-radius:20px;
+    padding:5px;
+}
+
+/* Style for the image gallery container */
+.food__image_gallery {
+    display: flex; /* Use flexbox to create a flexible container */
+    flex-wrap: wrap; /* Allow images to wrap to the next row on smaller screens */  
+    margin:auto;
+    width:90%;
+    height:230px;
+    border:1px solid white;
+    overflow:scroll;
+    background:black;
+    flex-direction:row;
+    justify-content: center; /* Center-align items horizontally */
+    gap: 10px; /* Add spacing between images */
+    border-radius: 10px;
+}
+
+/* Style for individual gallery images */
+.food__image_gallery__items {
+    width:200px;
+    height:auto;
+    border:2px solid black;
+    background:#ffffe6;
+    padding:3px;
+    margin-top:20px;
+    border-radius: 20px; /* Rounded corners for images */
+}
+
+.food__image_gallery__items h3 {
+    margin:2px;
+    background:black;
+    color:white;
+    padding:0;
+    border-radius: 10px;
+} 
+.food__image_gallery__items span button{
+    display:block;
+    color:green;
+    font-size:1.05em;
+    background:white;
+    border-radius:30px;
+    margin:auto;
+    padding:0 10px 0 10px;
+    }
+    
+.food__image_gallery__items span button:hover{
+    display:block;
+    background:green;
+    color:red;
+    font-size:1.05em;    
+    border-radius:30px;
+    margin:auto;
+    padding:0 10px 0 10px;
+    }
+    
+.food__image_gallery__items img {
+    max-width: 150px; /* Ensure images don't exceed their container's width */
+    height: 150px; /* Maintain image aspect ratio */
+    border: 2px solid black; /* Add a border around images */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to images */  
+    margin:10px;
+}
+
+#indian__food__about{
+    text-align:center;
+}
+
+#indian__food__about img{
+   border-radius: 40px;
+    border:2px solid white;
+    box-shadow:3px 3px 3px 3px black;
+}
+#indian__food__about details summary{
+    background:black;
+    color:white;
+    border-radius:20px;
+    margin:5px;
+    padding:5px;
+}
+
+#indian__food__about details summary:hover{
+    background:#ffffe6;
+    color:black;
+    border-radius:20px;
+    margin:5px;
+    padding:5px;
+}
+
+
+#indian__food__about__details__p{
+    background:black;
+    color:white;
+    border-radius:20px;
+    margin:5px;
+    padding:5px;
+}
+
+#reservations {
+   text-align:center;   
+}
+
+#reservations p a {
+    display:block;
+    text-decoration:none;
+}
+
+#reservations a {
+    background-color: #007bff;
+    color:white;
+    width:150px;
+    height:20px;
+    position:relative;
+    left:38%;
+    text-align:center;
+    margin:10px;
+    padding:5px;
+    border-radius:10px;
+}
+
+.footer{
+    text-align:center;
+    background:black;
+    color:white;
+    margin:auto;
+    width:90%;
+    padding:2px;
+    border-radius:20px;
+    font-size:xx-small;
+    margin:auto;
+    
+}
+
+.search__container {
+  margin:auto;
+  
+  }
+#search__form #search__input{
+ width:50%;
+ height:25px;
+ border-radius:10px;
+ margin-left:20px;
+}
+
+#search__form #search__input:hover{
+ width:55%;
+ height:30px;
+ border-radius:5px;
+ margin-left:20px;
+ background:black;
+ color:white;
+ border:1px solid white;
+}
+
+#search__button__submit{
+ background-color: #007bff; /* Background color */
+ border: 0;
+ width: 100px;
+ height:30px;
+ color:white;
+ border-radius:10px;
+  }
